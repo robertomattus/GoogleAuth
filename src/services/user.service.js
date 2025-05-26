@@ -12,6 +12,7 @@ const handleUserCreated = async (data) => {
     clerkId: id,
     email,
     fullName: `${first_name || ""} ${last_name || ""}`.trim(),
+    role: "user", // Default role, can be changed later
   });
 };
 
